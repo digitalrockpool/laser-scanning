@@ -1,0 +1,66 @@
+/*
+ Theme Name:   3D Scanning
+ Theme URI:    https://www.digitalrockpool.com/
+ Description:  Custom theme for Cornwall 3D Scanning
+ Author:       Digital Rockpool
+ Author URI:   https://www.digitalrockpool.com/
+ Template:     bricks
+ Version:      1.1
+ Text Domain:  bricks
+*/
+
+/* *** Scroll Snap *** */
+html {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+main > section,
+footer > section {
+  scroll-snap-align: center;
+}
+
+/* *** Dot Menu *** */
+.hero-active #dot-menu .bricks-nav-menu li.hero-dot a,
+.laser-scanning-active #dot-menu .bricks-nav-menu li.laser-scanning-dot a,
+.laser-scanning-for-architects-and-designers-active #dot-menu .bricks-nav-menu li.laser-scanning-for-architects-and-designers-dot a,
+.laser-scanning-for-estate-agents-active #dot-menu .bricks-nav-menu li.laser-scanning-for-estate-agents-dot a,
+.drone-services-aerial-photography-active #dot-menu .bricks-nav-menu li.drone-services-aerial-photography-dot a,
+.drone-services-aerial-filming-active #dot-menu .bricks-nav-menu li.drone-services-aerial-filming-dot a,
+.drone-services-property-marketing-active #dot-menu .bricks-nav-menu li.drone-services-property-marketing-dot a,
+.drone-services-active #dot-menu .bricks-nav-menu li.drone-services-dot a,
+.who-we-are-active #dot-menu .bricks-nav-menu li.who-we-are-dot a,
+.contact-us-active #dot-menu .bricks-nav-menu li.contact-us-dot a,
+.legal-active #dot-menu .bricks-nav-menu li.contact-us-dot a {
+  background-color: #336e6c;
+  border-color: #336e6c;
+  color: #336e6c;
+}
+
+.drone-services-aerial-photography-active #dot-menu .bricks-nav-menu li a {
+  background-color: #808080;
+  border-color: #808080;
+  color: #808080;
+}
+
+/* *** Main Menu *** */
+.laser-scanning-for-architects-and-designers-active #main-menu .bricks-nav-menu li a,
+.laser-scanning-for-estate-agents-active #main-menu .bricks-nav-menu li a,
+.drone-services-active #main-menu .bricks-nav-menu li a,
+.pricing-active #main-menu .bricks-nav-menu li a  {
+  color: #000000;
+}
+
+.laser-scanning-active #main-menu .bricks-nav-menu li.nav-laser-scanning a,
+.laser-scanning-for-architects-and-designers-active #main-menu .bricks-nav-menu li.nav-laser-scanning a,
+.laser-scanning-for-estate-agents-active #main-menu .bricks-nav-menu li.nav-laser-scanning a,
+.drone-services-aerial-photography-active #main-menu .bricks-nav-menu li.nav-drone-services a,
+.drone-services-aerial-filming-active #main-menu .bricks-nav-menu li.nav-drone-services a,
+.drone-services-property-marketing-active #main-menu .bricks-nav-menu li.nav-drone-services a,
+.drone-services-active #main-menu .bricks-nav-menu li.nav-drone-services a,
+.who-we-are-active #main-menu .bricks-nav-menu li.nav-who-we-are a,
+.contact-us-active #main-menu .bricks-nav-menu li.nav-contact-us a,
+.legal-active #main-menu .bricks-nav-menu li.nav-contact-us a  {
+  color: #336e6c;
+}
